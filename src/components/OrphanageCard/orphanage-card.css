@@ -1,0 +1,59 @@
+div.card {
+    display: flex;
+    flex-direction: column;
+    width: 544px;
+    height: 309px;
+    border: 1px solid #d3e2e5;
+    border-radius: 20px;
+    margin-bottom: 4rem;
+    overflow: hidden;
+  }
+  
+  div.card:nth-child(2n-1) {
+    margin-right: 2rem;
+  }
+  
+  div.card .leaflet-container {
+    width: 100%;
+    background-color: #FFF;
+    height: 225px;
+  }
+  
+  div.card > div:last-child {
+    background-color: #fff;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2rem;
+  }
+  
+  div.card > div:last-child strong {
+    color: #4d6f80;
+    font-size: 24px;
+    line-height: 34px;
+    font-weight: 700;
+  }
+  
+  div.card > div:last-child button,
+  div.card > div:last-child a {
+    display: inline-block;
+  
+    padding: 12px;
+    background-color: #ebf2f5;
+    border: 0;
+    border-radius: 16px;
+    margin-left: 8px;
+    line-height: 0;
+    cursor: pointer;
+    transition: background-color 0.4s;
+  }
+  
+  div.card > div:last-child button:hover,
+  div.card > div:last-child a:hover {
+    background-color: #ccdee5;
+  }
+
+  .button-review{
+    background: #228a78;
+  }

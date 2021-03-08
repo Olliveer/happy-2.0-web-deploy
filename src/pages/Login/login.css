@@ -1,0 +1,157 @@
+#login-page {}
+
+aside.form-box {
+    display: flex;
+    position: absolute;
+    width: 520px;
+    height: 100vh;
+    right: 0;
+    background: #FFFFFF;
+    border: 1px solid #D3E2E5;
+    box-sizing: border-box;
+}
+
+form.login-form {
+    width: 700px;
+    margin: auto;
+    background: #FFFFFF;
+    border-radius: 20px;
+    padding: 80px;
+    overflow: hidden;
+}
+
+form.login-form fieldset {
+    border: 0;
+}
+
+form.login-form fieldset+fieldset {
+    margin-top: 80px;
+}
+
+form.login-form fieldset legend {
+    width: 100%;
+    font-size: 32px;
+    line-height: 34px;
+    color: #5C8599;
+    font-weight: 700;
+    margin-bottom: 40px;
+    padding-bottom: 24px;
+}
+
+form.login-form .input-block+.input-block {
+    margin-top: 24px;
+}
+
+form.login-form .input-block label {
+    display: flex;
+    color: #8FA7B3;
+    margin-bottom: 8px;
+    line-height: 24px;
+}
+
+form.login-form .input-block label span {
+    font-size: 14px;
+    color: #8FA7B3;
+    margin-left: 24px;
+    line-height: 24px;
+}
+
+form.login-form .input-block input {
+    width: 100%;
+    height: 64px;
+    padding: 0 16px;
+    background: #F5F8FA;
+    border: 1px solid #D3E2E5;
+    border-radius: 20px;
+    outline: none;
+    color: #5C8599;
+}
+
+form.login-form .remember-me {
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+form.login-form .links {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: auto;
+    margin-bottom: 20px;
+    width: 50%;
+}
+
+form.login-form input[type='checkbox'] {
+    width: 18px;
+    height: 24px;
+    background: #F5F8FA;
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+
+form.login-form .remember-me label {
+    font: 600 16px Nunito, sans-serif;
+    color: #8FA7B3;
+    line-height: 22px;
+    padding-left: 10px;
+    margin-right: 55px;
+}
+
+form.login-form .forgot-password {
+    color: #8FA7B3;
+    line-height: 22px;
+    text-decoration: none;
+    font: 600 16px Nunito, sans-serif;
+}
+
+form.login-form button.confirm-button {
+    margin-top: 64px;
+    width: 100%;
+    height: 64px;
+    border: 0;
+    cursor: pointer;
+    background: #37C77F;
+    border-radius: 20px;
+    color: #FFFFFF;
+    font-weight: 800;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.2s;
+    outline: none;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+}
+
+form.login-form button.confirm-button:hover {
+    background: #37C77F;
+}
+
+#login-page .back-btn {
+    position: absolute;
+    left: 85.68%;
+    right: 2.99%;
+    top: 4.88%;
+    bottom: 89.27%;
+    width: 48px;
+    height: 48px;
+    border: 1px solid #EBF2F5;
+    background: #EBF2F5;
+    border-radius: 16px;
+    outline: none;
+    cursor: pointer;
+}
+
+#login-page .back-btn:hover {
+    background: #96FEFF;
+}
+
+form.form-login input#checkbox {
+    width: 18px;
+    height: 24px;
+    background: #F5F8FA;
+
+    border: 1px solid #D3E2E5;
+    box-sizing: border-box;
+    border-radius: 8px;
+  }

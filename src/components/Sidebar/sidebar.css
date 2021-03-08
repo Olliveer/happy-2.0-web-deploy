@@ -1,0 +1,84 @@
+aside.app-sidebar {
+  position: fixed;
+  height: 100%;
+  padding: 32px 24px;
+  background: linear-gradient(329.54deg, #15B6D6 0%, #15D6D6 100%);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  left: 0px;
+  top: 0px;
+}
+
+aside.app-sidebar img {
+  width: 48px;
+}
+
+aside.app-sidebar footer a, aside.app-sidebar footer button {
+  width: 48px;
+  height: 48px;
+  border: 0;
+  background: #12AFCB;
+  border-radius: 16px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  outline: none;
+}
+
+aside.app-sidebar footer a:hover, aside.app-sidebar footer button:hover {
+  background: #17D6EB;
+}
+
+aside.app-sidebar div {
+  display: flex;
+  flex-direction: column;
+}
+
+ aside.app-sidebar :is(a){
+  width: 48px;
+  height: 48px;
+  border: 0;
+  border-radius: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.home {
+  background: #FFF;
+}
+
+.home:hover{
+  background: #FFD666;
+}
+
+.map {
+  background: #e0b12e;
+}
+
+.map:hover{
+  background: #FFD666;
+}
+
+ .users {
+  background: #31B272;
+}
+
+.users:hover{
+  background: #3BD689;
+}
+
+.pending {
+  background: #ec0c5e;
+}
+
+.pending:hover{
+  background: #eb75a0;
+}
