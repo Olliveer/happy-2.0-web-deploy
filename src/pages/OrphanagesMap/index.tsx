@@ -100,7 +100,6 @@ function OrphanagesMap() {
                                 <Link to={`/orphanage/${orphanage.id}`}>
                                     <FiArrowRight size={20} color="#FFF" />
                                 </Link>
-
                             </Popup>
                         </Marker>
 
